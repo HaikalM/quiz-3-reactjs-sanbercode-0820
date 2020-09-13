@@ -1,0 +1,61 @@
+.color-555{ color: #555; }
+.color-666{ color: #666; }
+.color-888{ color: #555; }
+
+.movie-card{
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	border: 1px #eee solid;
+	border-radius: 15px;
+	box-shadow: 2px 4px 10px rgb(0,0,0,0.1);
+	display: flex;
+}
+
+.movie-thumbnail{
+	border-radius: 20px;
+	margin-right: 20px;
+	width: 200px;
+	align-self: flex-start;
+	justify-self: left-start;
+}
+
+.movie-information{
+	align-self: flex-start;
+	justify-self: left-start;
+}
+
+.title-section{
+	width: 100%;
+	display: flex;
+	align-self: flex-start;
+	justify-content: space-between;
+}
+
+.title-section .movie-title{
+	font-size: 24px;
+	font-weight: 600;
+	color: #555;
+}
+
+.title-section .movie-rating{
+	padding: 5px 20px;
+	color: #555;
+	background: #ffd571;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+}
+
+.movie-overview{
+	margin-bottom: 10px;
+}
+
+.movie-genre{
+	color: #888;
+	margin-bottom: 5px;
+}
+
+.movie-description{
+	text-align: justify;
+}

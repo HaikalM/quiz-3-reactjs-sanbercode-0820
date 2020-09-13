@@ -13,6 +13,7 @@ const TopNav = () => {
 					<Link to='/index'>Home</Link>
 					<Link to='/about'>About</Link>
 					<Link to='/contact'>Contact</Link>
+					<Link to='/movies'>Movies</Link>
 				</ul>
 			</nav>
 		</header>
