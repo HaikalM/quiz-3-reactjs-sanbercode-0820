@@ -1,0 +1,38 @@
+body {
+	background-color: #ddd;
+	background-image: url("/public/image/pattern.jpg");
+	margin: 0;
+}
+
+h1{
+	color: #444;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px #eee solid;
+}
+
+p {
+	color: #555;
+	font-size: 16px;
+}
+
+.position-absolute{
+	position: absolute;
+}
+
+.position-inherit{
+	position: inherit;
+}
+
+section{
+	width: 80%;
+	margin: auto;
+	margin-top: 80px;
+	padding: 20px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 1px 4px 12px rgb(0,0,0,0.1)
+}
