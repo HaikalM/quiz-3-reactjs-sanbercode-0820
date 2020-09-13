@@ -5,6 +5,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import MovieIndex from './pages/MovieIndex'
 import ManageMovie from './pages/MoviesManagement'
+import LoginForm from './pages/LoginForm'
+import Logout from './pages/login/LogoutProcess'
 
 const Routes = () => {
 	return(
@@ -15,6 +17,8 @@ const Routes = () => {
 			<Route exact path="/contact" component={Contact}></Route>
 			<Route exact path="/movies" component={MovieIndex}></Route>
 			<Route exact path="/manage-movies" component={ManageMovie}></Route>
+			<Route exact path="/login" component={LoginForm}></Route>
+			<Route exact path="/logout" component={Logout}></Route>
 		</Switch>
 	)
 }

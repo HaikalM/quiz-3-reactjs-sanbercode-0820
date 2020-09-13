@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/css/component/TopNav.css'
+import {LoginDataContext} from '../pages/login/LoginDataContext'
 
 const TopNav = () => {
+	const [,,,,loggedIn, setLoggedIn] = useContext(LoginDataContext)
+
 	return(
 		<header>
 			<div className="header-logo">
@@ -13,8 +16,10 @@ const TopNav = () => {
 					<Link to='/index'>Home</Link>
 					<Link to='/about'>About</Link>
 					<Link to='/contact'>Contact</Link>
-					<Link to='/movies'>Movies</Link>
-					<Link to='/manage-movies'>Manage Movies</Link>
+					{loggedIn.status === true && <Link to='/movies'>Movies</Link> }
+					{loggedIn.status === true && <Link to='/manage-movies'>Manage Movies</Link> }
+					{loggedIn.status === true && <Link to='/logout'>Logout</Link> }
+					{loggedIn.status !== true && <Link to='/login'>Login</Link> }
 				</ul>
 			</nav>
 		</header>

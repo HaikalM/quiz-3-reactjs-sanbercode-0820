@@ -2,7 +2,7 @@
 .color-666{ color: #666; }
 .color-888{ color: #555; }
 
-.movies-container{
+.movies-container-2{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -53,6 +53,7 @@
 	font-size: 14px;
 	font-weight: 600;
 	border-radius: 5px;
+	max-height: 32px;
 }
 
 .movie-card-small .movie-overview{
