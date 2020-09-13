@@ -4,7 +4,7 @@ import TopNav from './partial-component/TopNav.js'
 import Footer from './partial-component/Footer.js'
 import Routes from './Routes'
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './styles/css/App.css';
 
 function App() {

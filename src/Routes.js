@@ -4,6 +4,7 @@ import Index from './pages/Index'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import MovieIndex from './pages/MovieIndex'
+import ManageMovie from './pages/MoviesManagement'
 
 const Routes = () => {
 	return(
@@ -13,6 +14,7 @@ const Routes = () => {
 			<Route exact path="/about" component={About}></Route>
 			<Route exact path="/contact" component={Contact}></Route>
 			<Route exact path="/movies" component={MovieIndex}></Route>
+			<Route exact path="/manage-movies" component={ManageMovie}></Route>
 		</Switch>
 	)
 }

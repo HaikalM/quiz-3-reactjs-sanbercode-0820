@@ -14,6 +14,7 @@ const TopNav = () => {
 					<Link to='/about'>About</Link>
 					<Link to='/contact'>Contact</Link>
 					<Link to='/movies'>Movies</Link>
+					<Link to='/manage-movies'>Manage Movies</Link>
 				</ul>
 			</nav>
 		</header>

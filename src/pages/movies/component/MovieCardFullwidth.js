@@ -2,8 +2,8 @@ import React from 'react'
 
 const MovieCard = props => {
 	return(
-		<div className="movie-card">
-			<img className="movie-thumbnail" src={props.data.image_url} width='200px'/>
+		<div className="movie-card-fullwidth">
+			<img className="movie-thumbnail" src={props.data.image_url} alt={props.data.name} width='200px'/>
 			<div className="movie-information">
 				<div className="title-section">
 					<div className="movie-title">{props.data.title}</div>
