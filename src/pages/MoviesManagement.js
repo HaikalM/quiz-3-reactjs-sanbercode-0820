@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import axios from 'axios'
 import MovieCardSmall from './movies/component/MovieCardSmall.js'
 import '../styles/css/component/MovieCardSmall.css'
+import axios from 'axios'
 
 const MoviesManagement = () => {
 	const [moviesData, setMoviesData] = useState([])
