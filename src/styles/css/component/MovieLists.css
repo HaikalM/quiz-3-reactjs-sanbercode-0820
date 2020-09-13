@@ -21,6 +21,7 @@
 }
 
 .movie-information{
+	width: 100%;
 	align-self: flex-start;
 	justify-self: left-start;
 }
